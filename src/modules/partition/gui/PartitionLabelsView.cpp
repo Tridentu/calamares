@@ -366,6 +366,7 @@ PartitionLabelsView::drawLabel( QPainter* painter,
     for ( const QString& textLine : text )
     {
         QSize textSize = painter->fontMetrics().size( Qt::TextSingleLine, textLine );
+        painter->setFont(QFont("Fantasque Sans Mono"));
         painter->drawText(
             pos.x() + LABEL_PARTITION_SQUARE_MARGIN, pos.y() + vertOffset + textSize.height() / 2, textLine );
         vertOffset += textSize.height();

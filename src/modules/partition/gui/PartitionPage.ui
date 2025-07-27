@@ -22,6 +22,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
       <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>Storage de&amp;vice:</string>
        </property>
@@ -31,7 +36,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
       </widget>
      </item>
      <item>
-      <widget class="QComboBox" name="deviceComboBox"/>
+      <widget class="QComboBox" name="deviceComboBox">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
+      </widget>
      </item>
      <item>
       <spacer name="horizontalSpacer_2">
@@ -51,6 +62,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
        <property name="enabled">
         <bool>false</bool>
        </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>&amp;Revert All Changes</string>
        </property>
@@ -66,6 +82,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QTreeView" name="partitionTreeView">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="editTriggers">
       <set>QAbstractItemView::NoEditTriggers</set>
      </property>
@@ -87,6 +108,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QPushButton" name="newPartitionTableButton">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>New Partition &amp;Table</string>
        </property>
@@ -107,6 +133,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item>
       <widget class="QPushButton" name="createButton">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>Cre&amp;ate</string>
        </property>
@@ -114,6 +145,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item>
       <widget class="QPushButton" name="editButton">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>&amp;Edit</string>
        </property>
@@ -121,6 +157,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item>
       <widget class="QPushButton" name="deleteButton">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>&amp;Delete</string>
        </property>
@@ -133,6 +174,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      <layout class="QHBoxLayout" name="lvmButtonLayout">
       <item>
        <widget class="QPushButton" name="newVolumeGroupButton">
+        <property name="font">
+         <font>
+          <family>Fantasque Sans Mono</family>
+         </font>
+        </property>
         <property name="text">
          <string>New Volume Group</string>
         </property>
@@ -140,6 +186,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
       </item>
       <item>
        <widget class="QPushButton" name="resizeVolumeGroupButton">
+        <property name="font">
+         <font>
+          <family>Fantasque Sans Mono</family>
+         </font>
+        </property>
         <property name="text">
          <string>Resize Volume Group</string>
         </property>
@@ -147,6 +198,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
       </item>
       <item>
        <widget class="QPushButton" name="deactivateVolumeGroupButton">
+        <property name="font">
+         <font>
+          <family>Fantasque Sans Mono</family>
+         </font>
+        </property>
         <property name="text">
          <string>Deactivate Volume Group</string>
         </property>
@@ -154,6 +210,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
       </item>
       <item>
        <widget class="QPushButton" name="removeVolumeGroupButton">
+        <property name="font">
+         <font>
+          <family>Fantasque Sans Mono</family>
+         </font>
+        </property>
         <property name="text">
          <string>Remove Volume Group</string>
         </property>
@@ -182,6 +243,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
       <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>I&amp;nstall boot loader on:</string>
        </property>
@@ -192,6 +258,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item>
       <widget class="QComboBox" name="bootLoaderComboBox">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="sizeAdjustPolicy">
         <enum>QComboBox::AdjustToContents</enum>
        </property>

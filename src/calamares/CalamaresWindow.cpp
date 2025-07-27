@@ -157,6 +157,8 @@ getWidgetSidebar( Calamares::DebugWindowManager* debug,
             aboutDialog, aboutDialog->setText( QCoreApplication::translate( "calamares-sidebar", "About", "@button" ) );
             aboutDialog->setToolTip(
                 QCoreApplication::translate( "calamares-sidebar", "Show information about Calamares", "@tooltip" ) ); );
+        aboutDialog->setFont(QFont("Fantasque Sans Mono"));
+
         extraButtons->addWidget( aboutDialog );
         aboutDialog->setFlat( true );
         aboutDialog->setCheckable( true );
@@ -204,6 +206,8 @@ getWidgetNavigation( Calamares::DebugWindowManager*,
             navigation );
         back->setObjectName( "view-button-back" );
         back->setEnabled( viewManager->backEnabled() );
+        back->setFont(QFont("Fantasque Sans Mono"));
+
         QObject::connect( back, &QPushButton::clicked, viewManager, &Calamares::ViewManager::back );
         QObject::connect( viewManager, &Calamares::ViewManager::backEnabledChanged, back, &QPushButton::setEnabled );
         QObject::connect( viewManager, &Calamares::ViewManager::backLabelChanged, back, &QPushButton::setText );
@@ -220,6 +224,8 @@ getWidgetNavigation( Calamares::DebugWindowManager*,
             navigation );
         next->setObjectName( "view-button-next" );
         next->setEnabled( viewManager->nextEnabled() );
+        next->setFont(QFont("Fantasque Sans Mono"));
+
         QObject::connect( next, &QPushButton::clicked, viewManager, &Calamares::ViewManager::next );
         QObject::connect( viewManager, &Calamares::ViewManager::nextEnabledChanged, next, &QPushButton::setEnabled );
         QObject::connect( viewManager, &Calamares::ViewManager::nextLabelChanged, next, &QPushButton::setText );
@@ -236,6 +242,8 @@ getWidgetNavigation( Calamares::DebugWindowManager*,
             QCoreApplication::translate( CalamaresWindow::staticMetaObject.className(), "&Cancel", "@button" ),
             navigation );
         quit->setObjectName( "view-button-cancel" );
+        quit->setFont(QFont("Fantasque Sans Mono"));
+
         QObject::connect( quit, &QPushButton::clicked, viewManager, &Calamares::ViewManager::quit );
         QObject::connect( viewManager, &Calamares::ViewManager::quitEnabledChanged, quit, &QPushButton::setEnabled );
         QObject::connect( viewManager, &Calamares::ViewManager::quitLabelChanged, quit, &QPushButton::setText );

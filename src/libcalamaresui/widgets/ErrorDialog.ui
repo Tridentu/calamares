@@ -36,19 +36,35 @@ SPDX-License-Identifier: GPL-3.0-or-later
       </item>
       <item>
        <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>Fantasque Sans Mono</family>
+         </font>
+        </property>
         <property name="text">
          <string>Details:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QTextBrowser" name="detailsBrowser"/>
+       <widget class="QTextBrowser" name="detailsBrowser">
+        <property name="font">
+         <font>
+          <family>Fantasque Sans Mono</family>
+         </font>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
    </item>
    <item row="7" column="0">
     <widget class="QLabel" name="offerWebPasteLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="toolTip">
       <string/>
      </property>
@@ -59,6 +75,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="8" column="0" colspan="2">
     <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>

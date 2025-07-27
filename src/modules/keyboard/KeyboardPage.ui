@@ -70,6 +70,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </property>
      <item>
       <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>Keyboard model:</string>
        </property>
@@ -82,6 +87,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
       </widget>
      </item>
@@ -110,10 +120,22 @@ SPDX-License-Identifier: GPL-3.0-or-later
       <number>9</number>
      </property>
      <item>
-      <widget class="QListView" name="layoutSelector"/>
+      <widget class="QListView" name="layoutSelector">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QListView" name="variantSelector"/>
+      <widget class="QListView" name="variantSelector">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
@@ -132,6 +154,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
        </property>
        <property name="font">
         <font>
+         <family>Fantasque Sans Mono</family>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -149,6 +172,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item>
       <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string extracomment="shortcut for switching between keyboard layouts">Switch Keyboard:</string>
        </property>
@@ -167,6 +195,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>0</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
       </widget>
      </item>

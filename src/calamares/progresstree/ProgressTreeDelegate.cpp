@@ -32,6 +32,7 @@ paintViewStep( QPainter* painter, const QStyleOptionViewItem& option, const QMod
     QFont font = qApp->font();
     font.setPointSize( item_fontsize() );
     font.setBold( false );
+    font.setFamily("Fantasque Sans Mono");
     painter->setFont( font );
 
     if ( index.row() == index.data( Calamares::ViewManager::ProgressTreeItemCurrentIndex ).toInt() )

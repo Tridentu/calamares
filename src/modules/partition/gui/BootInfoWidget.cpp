@@ -42,7 +42,7 @@ BootInfoWidget::BootInfoWidget( QWidget* parent )
     QFontMetrics fm = QFontMetrics( QFont() );
     m_bootLabel->setMinimumWidth( fm.boundingRect( "BIOS" ).width() + Calamares::defaultFontHeight() / 2 );
     m_bootLabel->setAlignment( Qt::AlignCenter );
-
+    m_bootLabel->setFont(QFont("Fantasque Sans Mono"));
     QPalette palette;
     palette.setBrush( WindowText, QColor( "#4D4D4D" ) );  //dark grey
 

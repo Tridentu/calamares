@@ -42,9 +42,12 @@ LocalePage::LocalePage( Config* config, QWidget* parent )
 
     QBoxLayout* zoneAndRegionLayout = new QHBoxLayout;
     m_regionLabel = new QLabel( this );
+    m_regionLabel->setFont(QFont("Fantasque Sans Mono"));
     zoneAndRegionLayout->addWidget( m_regionLabel );
 
     m_regionCombo = new QComboBox( this );
+    m_regionCombo->setFont(QFont("Fantasque Sans Mono"));
+
     zoneAndRegionLayout->addWidget( m_regionCombo );
     m_regionCombo->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Preferred );
     m_regionLabel->setBuddy( m_regionCombo );
@@ -52,32 +55,42 @@ LocalePage::LocalePage( Config* config, QWidget* parent )
     zoneAndRegionLayout->addSpacing( 20 );
 
     m_zoneLabel = new QLabel( this );
+    m_zoneLabel->setFont(QFont("Fantasque Sans Mono"));
+
     zoneAndRegionLayout->addWidget( m_zoneLabel );
 
     m_zoneCombo = new QComboBox( this );
     m_zoneCombo->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Preferred );
     zoneAndRegionLayout->addWidget( m_zoneCombo );
     m_zoneLabel->setBuddy( m_zoneCombo );
+    m_zoneCombo->setFont(QFont("Fantasque Sans Mono"));
 
 
     QBoxLayout* localeLayout = new QHBoxLayout;
     m_localeLabel = new QLabel( this );
+    m_localeLabel->setFont(QFont("Fantasque Sans Mono"));
     m_localeLabel->setWordWrap( true );
     m_localeLabel->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Preferred );
     localeLayout->addWidget( m_localeLabel );
 
     m_localeChangeButton = new QPushButton( this );
     m_localeChangeButton->setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Preferred );
+    m_localeChangeButton->setFont(QFont("Fantasque Sans Mono"));
+
     localeLayout->addWidget( m_localeChangeButton );
 
     QBoxLayout* formatsLayout = new QHBoxLayout;
     m_formatsLabel = new QLabel( this );
     m_formatsLabel->setWordWrap( true );
     m_formatsLabel->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Preferred );
+    m_formatsLabel->setFont(QFont("Fantasque Sans Mono"));
+
     formatsLayout->addWidget( m_formatsLabel );
 
     m_formatsChangeButton = new QPushButton( this );
     m_formatsChangeButton->setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Preferred );
+    m_formatsChangeButton->setFont(QFont("Fantasque Sans Mono"));
+
     formatsLayout->addWidget( m_formatsChangeButton );
 
     mainLayout->addLayout( tzwLayout );

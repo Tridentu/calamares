@@ -143,6 +143,7 @@ WaitingSpinnerWidget::paintEvent( QPaintEvent* )
     if ( !_text.isEmpty() )
     {
         painter.setPen( QPen( _textColor ) );
+        painter.setFont(QFont("Fantasque Sans Mono", 9));
         if ( isAlignCenter( alignment() ) )
         {
             painter.drawText( QRect( 0, 0, width(), height() ), Qt::AlignVCenter | Qt::AlignHCenter, _text );

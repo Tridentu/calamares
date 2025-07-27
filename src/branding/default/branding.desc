@@ -122,13 +122,13 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         "${NAME}"
-    shortProductName:    Generic
-    version:             2023.3 LTS
-    shortVersion:        2023.3
-    versionedName:       Fancy GNU/Linux 2023.3 LTS "Venomous Vole"
-    shortVersionedName:  FancyGL 2023.3
-    bootloaderEntryName: FancyGL
-    productUrl:          https://calamares.io/
+    shortProductName:    Tridentu
+    version:             1.2.5 Alpha 4
+    shortVersion:        1.2.5
+    versionedName:       Tridentu 2 Linux 1.2.5 "Alpha 4"
+    shortVersionedName:  Tridentu 2 1.2.5
+    bootloaderEntryName: Tridentu 2
+    productUrl:          https://tridentu.github.io/
     supportUrl:          https://github.com/calamares/calamares/wiki
     knownIssuesUrl:      https://github.com/calamares/calamares/issues
     releaseNotesUrl:     https://calamares.io/news/
@@ -163,10 +163,10 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "squid.png"
-    productLogo:         "squid.png"
+    productIcon:         "tridentu.png"
+    productLogo:         "tridentu.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "languages.png"
+    productWelcome:      "tridentu-banner.png"
 
 # Colors for text and background components.
 #
@@ -180,10 +180,10 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   SidebarBackground:        "#292F34"
-   SidebarText:              "#FFFFFF"
-   SidebarTextCurrent:       "#292F34"
-   SidebarBackgroundCurrent: "#D35400"
+   SidebarBackground:        "#e5e9f0"
+   SidebarText:              "#3b4252"
+   SidebarTextCurrent:       "#e5e9f0"
+   SidebarBackgroundCurrent: "#3b4252"
 
 ### SLIDESHOW
 #

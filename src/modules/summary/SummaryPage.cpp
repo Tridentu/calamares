@@ -42,6 +42,7 @@ SummaryPage::SummaryPage( Config* config, QWidget* parent )
     QLabel* headerLabel = new QLabel( this );
     headerLabel->setObjectName( "summaryTitle" );
     headerLabel->setText( config->message() );
+    headerLabel->setFont(QFont("Fantasque Sans Mono"));
     connect( config, &Config::messageChanged, headerLabel, &QLabel::setText );
     layout->addWidget( headerLabel );
     layout->addWidget( m_scrollArea );
@@ -75,6 +76,9 @@ createBodyLabel( const QString& text, const QPalette& bodyPalette )
     label->setAutoFillBackground( true );
     label->setPalette( bodyPalette );
     label->setText( text );
+    label->setFont(QFont("Fantasque Sans Mono"));
+
+
     return label;
 }
 
@@ -134,6 +138,7 @@ SummaryPage::buildWidgets( Config* config, SummaryViewStep* viewstep )
 
     QFont titleFont = font();
     titleFont.setWeight( QFont::Light );
+    titleFont.setFamily("Fantasque Sans Mono");
     titleFont.setPointSize( Calamares::defaultFontSize() * 2 );
 
     QPalette bodyPalette( palette() );

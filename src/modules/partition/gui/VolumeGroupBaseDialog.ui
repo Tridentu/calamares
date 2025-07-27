@@ -20,16 +20,32 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
     <widget class="QLabel" name="pvListLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>List of Physical Volumes</string>
      </property>
     </widget>
    </item>
    <item row="1" column="0" rowspan="7">
-    <widget class="QListWidget" name="pvList"/>
+    <widget class="QListWidget" name="pvList">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
+    </widget>
    </item>
    <item row="1" column="1">
     <widget class="QLabel" name="vgNameLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Volume Group Name:</string>
      </property>
@@ -39,10 +55,21 @@ SPDX-License-Identifier: GPL-3.0-or-later
     </widget>
    </item>
    <item row="1" column="2">
-    <widget class="QLineEdit" name="vgName"/>
+    <widget class="QLineEdit" name="vgName">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
+    </widget>
    </item>
    <item row="2" column="1">
     <widget class="QLabel" name="vgTypeLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Volume Group Type:</string>
      </property>
@@ -52,10 +79,21 @@ SPDX-License-Identifier: GPL-3.0-or-later
     </widget>
    </item>
    <item row="2" column="2">
-    <widget class="QComboBox" name="vgType"/>
+    <widget class="QComboBox" name="vgType">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
+    </widget>
    </item>
    <item row="3" column="1">
     <widget class="QLabel" name="peSizeLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Physical Extent Size:</string>
      </property>
@@ -66,6 +104,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="3" column="2">
     <widget class="QSpinBox" name="peSize">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="suffix">
       <string> MiB</string>
      </property>
@@ -82,6 +125,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="4" column="1">
     <widget class="QLabel" name="totalSizeLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Total Size:</string>
      </property>
@@ -92,6 +140,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="4" column="2">
     <widget class="QLabel" name="totalSize">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string notr="true">---</string>
      </property>
@@ -102,6 +155,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="5" column="1">
     <widget class="QLabel" name="usedSizeLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Used Size:</string>
      </property>
@@ -112,6 +170,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="5" column="2">
     <widget class="QLabel" name="usedSize">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string notr="true">---</string>
      </property>
@@ -122,6 +185,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="6" column="1">
     <widget class="QLabel" name="totalSectorsLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Total Sectors:</string>
      </property>
@@ -132,6 +200,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="6" column="2">
     <widget class="QLabel" name="totalSectors">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string notr="true">---</string>
      </property>
@@ -142,6 +215,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="7" column="1">
     <widget class="QLabel" name="lvQuantityLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Quantity of LVs:</string>
      </property>
@@ -152,6 +230,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="7" column="2">
     <widget class="QLabel" name="lvQuantity">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string notr="true">---</string>
      </property>
@@ -162,6 +245,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item row="8" column="0" colspan="3">
     <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>

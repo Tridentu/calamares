@@ -76,6 +76,7 @@ ExecutionViewStep::ExecutionViewStep( QObject* parent )
     CALAMARES_RETRANSLATE( m_progressBar->setFormat(
         tr( "%p%", "Progress percentage indicator: %p is where the number 0..100 is placed" ) ); );
     m_label->setObjectName( "exec-message" );
+    m_label->setFont(QFont("Fantasque Sans Mono"));
 
     QVBoxLayout* layout = new QVBoxLayout( m_widget );
     QVBoxLayout* bottomLayout = new QVBoxLayout;

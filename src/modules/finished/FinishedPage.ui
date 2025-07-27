@@ -14,6 +14,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <height>400</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <family>Fantasque Sans Mono</family>
+   </font>
+  </property>
   <property name="windowTitle">
    <string notr="true">Form</string>
   </property>

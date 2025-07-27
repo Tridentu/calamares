@@ -42,13 +42,33 @@ Item {
             y: 0
             width: parent.width - fscrollbar.width
             font.pointSize: 14
+            font.family: "Fantasque Sans Mono"
             textFormat: Text.RichText
             antialiasing: true
             activeFocusOnPress: false
             wrapMode: Text.WordWrap
 
             text: qsTr("<h3>%1</h3>
-            <p>These are example release notes.</p>"
+            <ul>
+                <li>Added BTRFS support</li>
+                <li>Added Snapper + BTRFS assistant</li>
+                <li>Added GTK 4</li>
+                <li>Updated Mast TK (console toolkit)</li>
+                <li>Added Grub BTRFS</li>
+                <li>Added custom Cato themes (Catpuccin + Otto)</li>
+                <li>Added Tridentu docs</li>
+                <li>Upgraded KDE to 6.3.2</li>
+                <li>Editor's Choice in Disover is now different.</li>
+                <li>Console Font changed to Spleen</li>
+                <li>Major improvements to caravel-pm</li>
+                <li>New Essays word processor.</li>
+                <li>Added Times Newer Roman.</li>
+                <li>Added PT Serif.</li>
+                <li>Added Playfair Display.</li>
+                <li>Updated Papirus icons.</li>
+                <li>Added papirus-folders.</li>
+
+            </ul>"
             ).arg(Branding.string(Branding.VersionedName))
 
         }

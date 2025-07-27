@@ -44,6 +44,7 @@ DeviceInfoWidget::DeviceInfoWidget( QWidget* parent )
     QFontMetrics fm = QFontMetrics( QFont() );
     m_ptLabel->setMinimumWidth( fm.boundingRect( "Amiga" ).width() + Calamares::defaultFontHeight() / 2 );
     m_ptLabel->setAlignment( Qt::AlignCenter );
+    m_ptLabel->setFont(QFont("Fantasque Sans Mono"));
 
     QPalette palette;
     palette.setBrush( WindowText, QColor( "#4D4D4D" ) );  //dark grey

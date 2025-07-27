@@ -32,6 +32,7 @@ ScanningDialog::ScanningDialog( const QString& text, const QString& windowTitle,
     spinner->start();
 
     QLabel* rescanningLabel = new QLabel( text, this );
+    rescanningLabel->setFont(QFont("Fantasque Sans Mono"));
     dialogLayout->addWidget( rescanningLabel );
 }
 

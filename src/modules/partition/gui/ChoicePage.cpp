@@ -101,6 +101,8 @@ ChoicePage::ChoicePage( Config* config, QWidget* parent )
     m_drivesLayout->insertSpacing( 1, Calamares::defaultFontHeight() / 2 );
 
     m_drivesCombo = new QComboBox( this );
+    m_drivesCombo->setFont(QFont("Fantasque Sans Mono"));
+
     m_mainLayout->setStretchFactor( m_drivesLayout, 0 );
     m_mainLayout->setStretchFactor( m_rightLayout, 1 );
     m_drivesLabel->setBuddy( m_drivesCombo );
@@ -260,13 +262,16 @@ ChoicePage::setupChoices()
     m_alongsideButton->setIcon(
         Calamares::defaultPixmap( Calamares::PartitionAlongside, Calamares::Original, iconSize ) );
     m_alongsideButton->addToGroup( m_grp, InstallChoice::Alongside );
+    m_alongsideButton->setFont(QFont("Fantasque Sans Mono"));
 
     m_eraseButton = new PrettyRadioButton;
     m_eraseButton->setIconSize( iconSize );
     m_eraseButton->setIcon( Calamares::defaultPixmap( Calamares::PartitionEraseAuto, Calamares::Original, iconSize ) );
     m_eraseButton->addToGroup( m_grp, InstallChoice::Erase );
+    m_eraseButton->setFont(QFont("Fantasque Sans Mono"));
 
     m_replaceButton = new PrettyRadioButton;
+    m_replaceButton->setFont(QFont("Fantasque Sans Mono"));
 
     m_replaceButton->setIconSize( iconSize );
     m_replaceButton->setIcon(
@@ -310,6 +315,7 @@ ChoicePage::setupChoices()
         Calamares::defaultPixmap( Calamares::PartitionManual, Calamares::Original, iconSize ) );
     m_itemsLayout->addWidget( m_somethingElseButton );
     m_somethingElseButton->addToGroup( m_grp, InstallChoice::Manual );
+    m_somethingElseButton->setFont(QFont("Fantasque Sans Mono"));
 
     m_itemsLayout->addStretch();
 

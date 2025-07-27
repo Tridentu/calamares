@@ -24,7 +24,7 @@ ProgressTreeView::ProgressTreeView( QWidget* parent )
     setSelectionMode( QAbstractItemView::NoSelection );
     setDragDropMode( QAbstractItemView::NoDragDrop );
     setAcceptDrops( false );
-
+    setFont(QFont("Fantasque Sans Mono"));
     setItemDelegate( new ProgressTreeDelegate( this ) );
 
     QPalette plt = palette();

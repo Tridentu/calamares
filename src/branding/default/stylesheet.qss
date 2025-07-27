@@ -46,10 +46,14 @@ QPushButton { background-color: green; }
  * delegate code.
  */
 
-/*
-#mainApp { }
-#sidebarApp { }
-#logoApp { }
+#mainApp {
+background-color: #ECEFF4;
+}
+#sidebarApp {
+}
+#logoApp {
+
+}
 */
 
 /*** Welcome module.
@@ -61,14 +65,22 @@ QPushButton { background-color: green; }
  * or loaded via plugins or within the filesystem. There is no
  * comprehensive list of available icons, though.
  */
+/*QPushButton#aboutButton {
 
-/*
-QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
+}
+*/
+
 #donateButton,
 #supportButton,
 #releaseNotesButton,
-#knownIssuesButton { qproperty-icon: url(:/data/images/help.svg); }
-*/
+#knownIssuesButton {
+  qproperty-icon: "hwinfo";
+  font-family: "Fantasque Sans Mono", "Noto Sans", sans-serif;
+}
+
+QComboBox { background: #ECEFF4; }
+
+
 
 /*** Partitioning module.
  *
@@ -78,12 +90,14 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 /*
 #bootInfoIcon { }
 #bootInfoLable { }
-#deviceInfoIcon { }
+
 #defineInfoLabel { }
 #scrollAreaWidgetContents { }
 #partitionBarView { }
 */
-
+deviceInfoIcon {
+  qproperty-icon: "disk-manager";
+}
 /*** Licensing module.
  *
  * The licensing module paints individual widgets for each of

@@ -32,12 +32,22 @@ SPDX-License-Identifier: GPL-3.0-or-later
        <height>59</height>
       </size>
      </property>
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
     </widget>
    </item>
    <item>
     <layout class="QFormLayout" name="formLayout">
      <item row="0" column="0">
       <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>Si&amp;ze:</string>
        </property>
@@ -48,6 +58,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item row="0" column="1">
       <widget class="QSpinBox" name="sizeSpinBox">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="suffix">
         <string> MiB</string>
        </property>
@@ -55,6 +70,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item row="1" column="0">
       <widget class="QLabel" name="partitionTypeLabel">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>Partition &amp;Type:</string>
        </property>
@@ -67,6 +87,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
         <widget class="QRadioButton" name="primaryRadioButton">
+         <property name="font">
+          <font>
+           <family>Fantasque Sans Mono</family>
+          </font>
+         </property>
          <property name="text">
           <string>Primar&amp;y</string>
          </property>
@@ -77,6 +102,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
        </item>
        <item>
         <widget class="QRadioButton" name="extendedRadioButton">
+         <property name="font">
+          <font>
+           <family>Fantasque Sans Mono</family>
+          </font>
+         </property>
          <property name="text">
           <string>E&amp;xtended</string>
          </property>
@@ -84,6 +114,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
        </item>
        <item>
         <widget class="QLabel" name="fixedPartitionLabel">
+         <property name="font">
+          <font>
+           <family>Fantasque Sans Mono</family>
+          </font>
+         </property>
          <property name="text">
           <string notr="true">[fixed-partition-label]</string>
          </property>
@@ -119,6 +154,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item row="3" column="0">
       <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>Fi&amp;le System:</string>
        </property>
@@ -128,7 +168,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
       </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QComboBox" name="fsComboBox"/>
+      <widget class="QComboBox" name="fsComboBox">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
+      </widget>
      </item>
      <item row="5" column="1">
       <widget class="EncryptWidget" name="encryptWidget" native="true"/>
@@ -151,16 +197,32 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item row="7" column="0">
       <widget class="QLabel" name="lvNameLabel">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>LVM LV name</string>
        </property>
       </widget>
      </item>
      <item row="7" column="1">
-      <widget class="QLineEdit" name="lvNameLineEdit"/>
+      <widget class="QLineEdit" name="lvNameLineEdit">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
+      </widget>
      </item>
      <item row="8" column="0">
       <widget class="QLabel" name="mountPointLabel">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>&amp;Mount Point:</string>
        </property>
@@ -177,6 +239,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="editable">
         <bool>true</bool>
        </property>
@@ -187,6 +254,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item row="12" column="0">
       <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>Flags:</string>
        </property>
@@ -194,6 +266,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item row="12" column="1">
       <widget class="QListWidget" name="m_listFlags">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="alternatingRowColors">
         <bool>true</bool>
        </property>
@@ -220,6 +297,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item row="10" column="1">
       <widget class="QLineEdit" name="filesystemLabelEdit">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="toolTip">
         <string>Label for the filesystem</string>
        </property>
@@ -230,6 +312,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item row="10" column="0">
       <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>FS Label:</string>
        </property>
@@ -246,6 +333,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>

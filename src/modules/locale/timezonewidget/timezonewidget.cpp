@@ -42,6 +42,7 @@ TimeZoneWidget::TimeZoneWidget( const Calamares::Locale::ZonesModel* zones, QWid
     setCursor( Qt::PointingHandCursor );
 
     // Font
+    font.setFamily("Fantasque Sans Mono");
     font.setPointSize( 12 );
     font.setBold( false );
 

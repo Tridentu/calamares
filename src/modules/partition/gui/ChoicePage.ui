@@ -25,6 +25,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <layout class="QHBoxLayout" name="m_drivesLayout">
      <item>
       <widget class="QLabel" name="m_drivesLabel">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="toolTip">
         <string notr="true"/>
        </property>
@@ -39,6 +44,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <layout class="QVBoxLayout" name="m_rightLayout" stretch="0,1,0,0,0,0,0">
      <item>
       <widget class="QLabel" name="m_messageLabel">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="toolTip">
         <string notr="true"/>
        </property>
@@ -66,8 +76,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>729</width>
-          <height>233</height>
+          <width>723</width>
+          <height>345</height>
          </rect>
         </property>
         <layout class="QVBoxLayout" name="m_itemsLayout">
@@ -102,6 +112,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item>
       <widget class="QCheckBox" name="m_reuseHomeCheckBox">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string notr="true">&lt;m_reuseHomeCheckBox&gt;</string>
        </property>
@@ -142,6 +157,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          </item>
          <item>
           <widget class="QLabel" name="m_previewAfterLabel">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="text">
             <string notr="true">After:</string>
            </property>
@@ -175,6 +195,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          </item>
          <item>
           <widget class="QLabel" name="m_previewBeforeLabel">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="text">
             <string notr="true">Before:</string>
            </property>

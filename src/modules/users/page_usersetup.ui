@@ -36,6 +36,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QLabel" name="labelWhatIsYourName">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>What is your name?</string>
      </property>
@@ -50,6 +55,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>200</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="placeholderText">
         <string>Your Full Name</string>
@@ -76,6 +86,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <height>24</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string notr="true"/>
        </property>
@@ -91,6 +106,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <horstretch>1</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="text">
         <string/>
@@ -120,6 +140,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QLabel" name="username_label_2">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>What name do you want to use to log in?</string>
      </property>
@@ -143,6 +168,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>200</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="placeholderText">
         <string>login</string>
@@ -169,6 +199,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <height>24</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="scaledContents">
         <bool>true</bool>
        </property>
@@ -187,6 +222,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>200</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="text">
         <string/>
@@ -219,6 +259,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QLabel" name="hostnameLabel">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>What is the name of this computer?</string>
      </property>
@@ -242,6 +287,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>200</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="toolTip">
         <string>&lt;small&gt;This name will be used if you make the computer visible to others on a network.&lt;/small&gt;</string>
@@ -271,6 +321,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <height>24</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="scaledContents">
         <bool>true</bool>
        </property>
@@ -289,6 +344,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>200</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="text">
         <string/>
@@ -321,6 +381,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QLabel" name="password_label_2">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Choose a password to keep your account safe.</string>
      </property>
@@ -344,6 +409,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>200</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="toolTip">
         <string>&lt;small&gt;Enter the same password twice, so that it can be checked for typing errors. A good password will contain a mixture of letters, numbers and punctuation, should be at least eight characters long, and should be changed at regular intervals.&lt;/small&gt;</string>
@@ -369,6 +439,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>200</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="toolTip">
         <string>&lt;small&gt;Enter the same password twice, so that it can be checked for typing errors. A good password will contain a mixture of letters, numbers and punctuation, should be at least eight characters long, and should be changed at regular intervals.&lt;/small&gt;</string>
@@ -401,6 +476,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <height>24</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="scaledContents">
         <bool>true</bool>
        </property>
@@ -419,6 +499,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>100</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="text">
         <string/>
@@ -451,6 +536,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QCheckBox" name="checkBoxRequireStrongPassword">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="toolTip">
       <string>When this box is checked, password-strength checking is done and you will not be able to use a weak password.</string>
      </property>
@@ -461,6 +551,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QCheckBox" name="checkBoxDoAutoLogin">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Log in automatically without asking for the password.</string>
      </property>
@@ -468,6 +563,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QCheckBox" name="checkBoxReusePassword">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Use the same password for the administrator account.</string>
      </property>
@@ -491,6 +591,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QLabel" name="labelChooseRootPassword">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>Choose a password for the administrator account.</string>
      </property>
@@ -514,6 +619,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>200</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="toolTip">
         <string>&lt;small&gt;Enter the same password twice, so that it can be checked for typing errors.&lt;/small&gt;</string>
@@ -539,6 +649,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>200</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="toolTip">
         <string>&lt;small&gt;Enter the same password twice, so that it can be checked for typing errors.&lt;/small&gt;</string>
@@ -571,6 +686,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <height>24</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="scaledContents">
         <bool>true</bool>
        </property>
@@ -589,6 +709,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <width>100</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
        </property>
        <property name="text">
         <string/>
@@ -623,6 +748,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QCheckBox" name="useADCheckbox">
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string>Use Active Directory</string>
        </property>
@@ -634,13 +764,24 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <layout class="QHBoxLayout" name="horizontalLayout_2">
          <item>
           <widget class="QLabel" name="domainLabel">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="text">
             <string>Domain:</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="domainField"/>
+          <widget class="QLineEdit" name="domainField">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -648,16 +789,32 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <layout class="QHBoxLayout" name="horizontalLayout">
          <item>
           <widget class="QLabel" name="domainAdminLabel">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="text">
             <string>Domain Administrator:</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="domainAdminField"/>
+          <widget class="QLineEdit" name="domainAdminField">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
+          </widget>
          </item>
          <item>
           <widget class="QLabel" name="domainPasswordLabel">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="text">
             <string>Password:</string>
            </property>
@@ -665,6 +822,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          </item>
          <item>
           <widget class="QLineEdit" name="domainPasswordField">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
            </property>
@@ -676,13 +838,24 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <layout class="QHBoxLayout" name="horizontalLayout_3">
          <item>
           <widget class="QLabel" name="ipAddressLabel">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="text">
             <string>IP Address (optional):</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="ipAddressField"/>
+          <widget class="QLineEdit" name="ipAddressField">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>

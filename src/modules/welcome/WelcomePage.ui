@@ -22,9 +22,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0">
      <item>
       <spacer name="aboveTextSpacer">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
        <property name="sizeType">
         <enum>QSizePolicy::Fixed</enum>
        </property>
@@ -44,11 +41,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="font">
+        <font>
+         <family>Fantasque Sans Mono</family>
+        </font>
+       </property>
        <property name="text">
         <string notr="true">&lt;Calamares welcome text&gt;</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -59,11 +58,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
       <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0,0,2,0">
        <item>
         <spacer name="horizontalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
          <property name="sizeType">
-          <enum>QSizePolicy::Maximum</enum>
+          <enum>QSizePolicy::Fixed</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
@@ -94,6 +90,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
+         <property name="font">
+          <font>
+           <family>Fantasque Sans Mono</family>
+          </font>
+         </property>
          <property name="toolTip">
           <string>Select application and system language</string>
          </property>
@@ -101,11 +102,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
        </item>
        <item>
         <spacer name="horizontalSpacer_4">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
          <property name="sizeType">
-          <enum>QSizePolicy::Maximum</enum>
+          <enum>QSizePolicy::Fixed</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
@@ -121,9 +119,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
         <spacer name="horizontalSpacer">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
          <property name="sizeHint" stdset="0">
           <size>
            <width>40</width>
@@ -136,6 +131,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <layout class="QHBoxLayout" name="horizontalLayout_4">
          <item>
           <widget class="QPushButton" name="donateButton">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="toolTip">
             <string>Open donations website</string>
            </property>
@@ -149,6 +149,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          </item>
          <item>
           <widget class="QPushButton" name="supportButton">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="toolTip">
             <string>Open help and support website</string>
            </property>
@@ -162,6 +167,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          </item>
          <item>
           <widget class="QPushButton" name="knownIssuesButton">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="toolTip">
             <string>Open issues and bug-tracking website</string>
            </property>
@@ -175,6 +185,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
          </item>
          <item>
           <widget class="QPushButton" name="releaseNotesButton">
+           <property name="font">
+            <font>
+             <family>Fantasque Sans Mono</family>
+            </font>
+           </property>
            <property name="toolTip">
             <string>Open release notes website</string>
            </property>
@@ -190,9 +205,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
        </item>
        <item>
         <spacer name="horizontalSpacer_2">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
          <property name="sizeHint" stdset="0">
           <size>
            <width>40</width>
@@ -205,9 +217,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
      </item>
      <item>
       <spacer name="verticalSpacer_4">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
        <property name="sizeType">
         <enum>QSizePolicy::Fixed</enum>
        </property>

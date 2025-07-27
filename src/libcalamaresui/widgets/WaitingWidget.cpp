@@ -83,7 +83,7 @@ CountdownWaitingWidget::CountdownWaitingWidget( std::chrono::seconds duration, Q
     styleSpinner( this, labelHeight );
     setRevolutionsPerSecond( 1.0 / double( duration.count() ) );
     setAlignment( Qt::AlignmentFlag::AlignVCenter );
-
+    setFont(QFont("Fantasque Sans Mono"));
     // Last because it updates the text
     setInterval( duration );
 

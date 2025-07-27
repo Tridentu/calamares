@@ -17,9 +17,14 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <property name="windowTitle">
    <string notr="true">Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
    <item>
     <widget class="QLabel" name="generalExplanation">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string notr="true">Placeholder</string>
      </property>

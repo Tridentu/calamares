@@ -75,7 +75,7 @@ LogWidget::LogWidget( QWidget* parent )
     m_text->setReadOnly( true );
     m_text->setVerticalScrollBarPolicy( Qt::ScrollBarPolicy::ScrollBarAlwaysOn );
 
-    QFont monospaceFont( "monospace" );
+    QFont monospaceFont( "Fantasque Sans Mono" );
     monospaceFont.setStyleHint( QFont::Monospace );
     m_text->setFont( monospaceFont );
 

@@ -32,6 +32,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </property>
    <item>
     <widget class="QCheckBox" name="m_encryptCheckBox">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="text">
       <string>En&amp;crypt system</string>
      </property>
@@ -52,6 +57,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QLineEdit" name="m_passphraseLineEdit">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="echoMode">
       <enum>QLineEdit::Password</enum>
      </property>
@@ -62,6 +72,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
    </item>
    <item>
     <widget class="QLineEdit" name="m_confirmLineEdit">
+     <property name="font">
+      <font>
+       <family>Fantasque Sans Mono</family>
+      </font>
+     </property>
      <property name="echoMode">
       <enum>QLineEdit::Password</enum>
      </property>
